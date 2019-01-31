@@ -1,0 +1,49 @@
+body {
+    background: rgb(245, 245, 245);
+}
+.color {
+    background: rgb(130, 255, 130);
+}
+#content {
+    padding: 5% 3% 3% 3%;
+}
+.part {
+    background: rgb(255, 255, 255);
+    margin-top: 2em;
+    border: 1px solid black;
+    border-radius: 0.75em 0.75em 0.75em 0.75em;
+    padding: 0;
+}
+.part img {
+    padding: 0;
+    margin: 0;
+    border-radius: 0.75em 0em 0em 0.75em;
+}
+
+@media screen and (max-width: 768px) {
+    .part img {
+        border-radius: 0.75em 0.75em 0em 0em;
+        height: 15em;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .part img {
+        height: 100%;
+    }
+    .part {
+        height: 25em;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    #menu {
+        margin-left: 20%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    #menu {
+        margin-left: 25%;
+    }
+}
